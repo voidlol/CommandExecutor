@@ -2,22 +2,15 @@ package ru.voidlol.ce.parser.parser;
 
 import ru.voidlol.ce.command.domain.Command;
 import ru.voidlol.ce.command.domain.RateCommand;
-import ru.voidlol.ce.command.service.executor.RateCommandExecutor;
-import ru.voidlol.ce.enums.Algorithm;
-import ru.voidlol.ce.enums.CommandType;
-import ru.voidlol.ce.enums.CurrencyType;
 import ru.voidlol.ce.enums.Error;
-import ru.voidlol.ce.enums.TargetDate;
-import ru.voidlol.ce.parser.parser.CommandParser;
+import ru.voidlol.ce.enums.*;
 import ru.voidlol.ce.parser.parser.dto.PartValidationDto;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class RateCommandParser implements CommandParser {

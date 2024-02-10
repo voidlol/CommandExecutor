@@ -16,7 +16,9 @@ import ru.voidlol.ce.parser.parser.CommandParser;
 import ru.voidlol.ce.parser.parser.ExitCommandParser;
 import ru.voidlol.ce.parser.parser.RateCommandParser;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
